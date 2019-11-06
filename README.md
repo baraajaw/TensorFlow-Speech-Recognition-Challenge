@@ -11,6 +11,11 @@ The following figure show some of the wav file representation in time domain:
 <p align="center">
   <img src="all.png">
 </p>
+Because it's hard to work with wav file in time domain, it's better to convert them to time-frequency domain by computing discrete Fourier transforms (DFT).
+The following figure show some of the wav file representation in time-frequency domain: 
+<p align="center">
+  <img src="all_stft.png">
+</p>
 
 Librosa Package was used for extracting MFCC feature for each wav file, https://librosa.github.io/librosa/generated/librosa.feature.mfcc.html
 
