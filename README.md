@@ -16,8 +16,10 @@ The following figure show some of the wav file representation in time-frequency 
 <p align="center">
   <img src="all_stft.png">
 </p>
-
 Librosa Package was used for extracting MFCC feature for each wav file, https://librosa.github.io/librosa/generated/librosa.feature.mfcc.html
-
+The following figure show some of the wav file representation after extracting MFCC features: 
+<p align="center">
+  <img src="all_stft_mfcc.png">
+</p>
 # Model
 5 Layers Bidirectional LSTM was used.
