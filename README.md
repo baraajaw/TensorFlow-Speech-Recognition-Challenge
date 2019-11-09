@@ -24,5 +24,9 @@ The following figure show some of the wav file representation after extracting M
 <p align="center">
   <img src="all_stft_mfcc.png">
 </p>
+
+All the data preprossing step can be done by running Save_MFCC_memmap.ipynb jupyter notebook.
+
+
 # Model
 5 Layers Bidirectional LSTM was used.
